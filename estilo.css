@@ -1,0 +1,51 @@
+.btn-gradient{
+    background-image: linear-gradient(to right, #e8849f, #ed4152);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3 ease;
+    text-decoration: none;
+}
+
+.btn-gradient:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgb(255, 147, 181);
+    /*sombra do botao para dar profundidade
+    0 : deslocamento horinzotal: SEM DESLOCAMENTO LATERAL, SOMBRA CENTRALIZADA
+    5PX : deslocamento vertical:sombra projetada 5px para baixo
+    20px : raio de desfoque:sombra borrada e suave
+    rgba : cor da sombra (0.6) opaciadade
+    */
+
+}
+
+.btn-neon{
+    background: transparent;
+    color: #00ffff;
+    padding: 12px 24px;
+    border: 2px solid #00ffff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px; /*espaçamento das letras */
+    transition: all 0.3s ease; /*transiçao*/
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btn-neon:hover {
+    color: black;
+    background: #00ffff;
+    box-shadow: 
+    0 0 20px #00ffff,
+    0 0 40px #00ffff,
+    0 0 60px #00ffff; /*volume do brilho*/
+
+    text-shadow: 0 0 10px #000; /*sobra no texto*/
+}
